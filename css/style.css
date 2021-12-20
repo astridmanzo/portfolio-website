@@ -55,28 +55,24 @@ img {
 a {
   color: #000000;
   text-decoration:none;
-
-
-
-  a:visited { /* visited link */
-  color: #da6f52;
-
 }
 
+a:visited { /* visited link */
+color: #da6f52;
 }
+
 a:hover,
 a:focus {
   text-decoration: underline; /* Underlining when hovering over a link */
-    font-weight: 500;
-    background-color: #F3FAE8;
-
+  font-weight: 500;
+  background-color: #F3FAE8;
 }
 
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #000000;
   color: #FFFFFF; /* needed to override the default link color */
-    text-decoration: none
+  text-decoration: none
   font-weight: 300;
   padding: 10px;
 }
@@ -87,10 +83,7 @@ a:focus {
   text-decoration: underline;
   font-weight: 500;
   padding: 10px;
-
-
 }
-
 
 .button.contact {
   background-color: #000000;
@@ -98,17 +91,16 @@ a:focus {
   text-decoration: none
   font-weight: 300;
   padding: 10px;
-
-
 }
 
 .button.contact:hover {
   background-color: #000000;
   color: #F3FAE8
   text-decoration: underline;
-font-weight: 500;
-padding: 10px;
+  font-weight: 500;
+  padding: 10px;
 }
 
-
-footer {background-color: #F3FAE8}
+footer {
+  background-color: #F3FAE8;
+}
